@@ -23,7 +23,7 @@ function Hero() {
                 href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-md font-medium text-center text-white bg-[#936af5] rounded-full">
+                className="px-8 py-4 text-md font-medium text-center text-white bg-[#2e0249] rounded-full">
                 Request a Callback
               </a>
              

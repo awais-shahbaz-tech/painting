@@ -6,8 +6,8 @@ function HelpCenter() {
     <div>
       <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-          <div className="flex flex-col overflow-hidden rounded-lg bg-[#936af5] sm:flex-row md:h-80">
-            <div className="order-first h-48 w-full bg-[#936af5] sm:order-none sm:h-auto sm:w-1/2 lg:w-2/5">
+          <div className="flex flex-col overflow-hidden rounded-lg bg-[#2e0249] sm:flex-row md:h-80">
+            <div className="order-first h-48 w-full bg-[#2e0249] sm:order-none sm:h-auto sm:w-1/2 lg:w-2/5">
               <img
                 src="/img/help.png"
                 loading="lazy"

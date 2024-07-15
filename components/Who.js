@@ -9,7 +9,20 @@ function Who() {
   return (
     <div>
       <Container className={"flex flex-wrap"}>
-      <div className="flex order-2 items-center w-full  lg:w-1/2">
+      <div className="flex  items-center justify-center w-full lg:w-1/2">
+          <div className="">
+            <Image
+              src={heroImg}
+              width="550"
+              height="430"
+              className={"object-cover h-[430px] rounded-lg"}
+              alt="Hero Illustration"
+              loading="eager"
+              placeholder="blur"
+            />
+          </div>
+        </div>
+      <div className="flex  items-center w-full  lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-4xl xl:leading-tight dark:text-white">
             A Team of Full-service Painting Professionals for Home and Office Needs.
@@ -23,26 +36,14 @@ function Who() {
                 href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-sm font-medium text-center text-white bg-[#936af5] rounded-full">
+                className="px-8 py-4 text-sm font-medium text-center text-white bg-[#2e0249] rounded-full">
                 Know More About Us
               </a>
              
             </div>
           </div>
         </div>
-        <div className="flex order-1 items-center justify-center w-full lg:w-1/2">
-          <div className="">
-            <Image
-              src={heroImg}
-              width="550"
-              height="430"
-              className={"object-cover h-[430px] rounded-lg"}
-              alt="Hero Illustration"
-              loading="eager"
-              placeholder="blur"
-            />
-          </div>
-        </div>
+       
       </Container>
     </div>
   )

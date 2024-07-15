@@ -16,7 +16,7 @@ function HowcanHelp() {
 
         <div class="relative mt-auto p-4">
        
-          <h2 class="mb-2 text-xl font-bold text-[#936af5] transition duration-100">Interior Painting</h2>
+          <h2 class="mb-2 text-xl font-bold text-[#2e0249] transition duration-100">Interior Painting</h2>
 
           <span class="font-semibold text-white">Breathe new life into your interior spaces. Transform your walls with our expert interior painting services</span>
         </div>
@@ -29,7 +29,7 @@ function HowcanHelp() {
 
         <div class="relative mt-auto p-4">
          
-          <h2 class="mb-2 text-xl font-bold text-[#936af5] transition duration-100">Exterior Painting</h2>
+          <h2 class="mb-2 text-xl font-bold text-[#2e0249] transition duration-100">Exterior Painting</h2>
 
           <span class="font-semibold text-white">Upgrade your home’s exterior with a fresh coat of paint. We provide lasting protection and beauty.</span>
         </div>
@@ -42,7 +42,7 @@ function HowcanHelp() {
 
         <div class="relative mt-auto p-4">
          
-          <h2 class="mb-2 text-xl font-bold text-[#936af5] transition duration-100">Carpentry</h2>
+          <h2 class="mb-2 text-xl font-bold text-[#2e0249] transition duration-100">Carpentry</h2>
 
           <span class="font-semibold text-white">Quality craftsmanship for your home. We specialize in custom carpentry solutions.</span>
         </div>

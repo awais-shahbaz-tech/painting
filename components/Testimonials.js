@@ -10,7 +10,7 @@ function Testimonials() {
               <div className="h-full text-center">
                 <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/img/t1.jpg"/>
                 <p className="leading-relaxed">&quot;Amazing crew! Transformed my living room - professional, clean, and beautiful work. 5 stars&quot;</p>
-                <span className="inline-block h-1 w-10 rounded bg-[#936af5] mt-12 mb-4"></span>
+                <span className="inline-block h-1 w-10 rounded bg-[#2e0249] mt-12 mb-4"></span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">Martin Foster</h2>
               </div>
             </div>
@@ -18,7 +18,7 @@ function Testimonials() {
               <div className="h-full text-center">
                 <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/img/t2.jpg"/>
                 <p className="leading-relaxed">Brought my vision to life! The mural is exactly what I wanted - perfect for the nursery. Thanks</p>
-                <span className="inline-block h-1 w-10 rounded bg-[#936af5] mt-12 mb-4"></span>
+                <span className="inline-block h-1 w-10 rounded bg-[#2e0249] mt-12 mb-4"></span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">Bryan Cirius</h2>
               </div>
             </div>
@@ -26,7 +26,7 @@ function Testimonials() {
               <div className="h-full text-center">
                 <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/img/t3.jpg"/>
                 <p className="leading-relaxed">John&apos;s carpentry skills are top-notch! Built sturdy, beautiful bookshelves - exactly on time and on budget. Highly recommend!</p>
-                <span className="inline-block h-1 w-10 rounded bg-[#936af5] mt-6 mb-4"></span>
+                <span className="inline-block h-1 w-10 rounded bg-[#2e0249] mt-6 mb-4"></span>
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">Jane Dowser</h2>
               </div>
             </div>
