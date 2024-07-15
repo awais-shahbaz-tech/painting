@@ -15,15 +15,7 @@ export default function Home() {
     <main>
    <Container>
       <Hero/>
-      <SectionTitle
-       
-        title="Who Are We?"
-      >
-        Painting is a marketing website for startups
-        and indie projects.. And its
-        completely open-source. Anyone contact me. Why should you use this me
-      </SectionTitle>
-      <Who/>
+    
       <div className="">
       <SectionTitle
        
@@ -34,6 +26,16 @@ export default function Home() {
      <HowcanHelp/>
     
       </div>
+      <SectionTitle
+       
+       title="Who Are We?"
+     >
+       Painting is a marketing website for startups
+       and indie projects.. And its
+       completely open-source. Anyone contact me. Why should you use this me
+     </SectionTitle>
+      <Who/>
+    
       <HelpCenter/>
       <SectionTitle
        

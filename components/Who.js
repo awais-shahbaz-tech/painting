@@ -13,7 +13,7 @@ function Who() {
           <div className="">
             <Image
               src={heroImg}
-              width="550"
+              width="565"
               height="430"
               className={"object-cover h-[430px] rounded-lg"}
               alt="Hero Illustration"
