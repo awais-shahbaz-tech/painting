@@ -7,7 +7,7 @@ function ContactUs() {
             <div class="grid lg:grid-cols-2 items-center gap-14 sm:p-8 p-4 font-[sans-serif]">
                 <div>
                     <h1 class="text-4xl font-bold text-white">Get in Touch</h1>
-                    <p class="text-sm text-gray-300 mt-4 leading-relaxed">We're here to help! Contact Us Today!</p>
+                    <p class="text-sm text-gray-300 mt-4 leading-relaxed">We&apos;re here to help! Contact Us Today!</p>
 
                     <ul class="mt-12 space-y-8">
                         <li class="flex items-center">
@@ -75,7 +75,7 @@ function ContactUs() {
                 </div>
 
                 <div class="bg-gray-100 p-6 rounded-lg">
-                    <p class="text-sm font-semibold text-gray-800">I'm interested in...</p>
+                    <p class="text-sm font-semibold text-gray-800">I&apos;m interested in...</p>
 
                     <div class="space-y-4 max-lg:mt-4">
                         <button type="button" class="px-4 py-2 rounded-lg bg-[#a91079] text-white text-sm tracking-wider font-medium outline-none border-2 border-[#a91079] mr-4">Painting</button>
