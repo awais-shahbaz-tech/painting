@@ -18,6 +18,12 @@ function Hero() {
             <p className="py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             Transform your home with colors of your choice, from classic to modern, we bring your vision to life, one brushstroke at a time.
             </p>
+            <p className="pt-1 text-md leading-normal text-gray-500 lg:text-md xl:text-xl dark:text-gray-300">
+            Email : kthwilliams45@gmail.com
+            </p>
+            <p className="pb-4 text-md leading-normal text-gray-500 lg:text-md xl:text-xl dark:text-gray-300">
+            Emergency : 603 345 1376
+            </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               
