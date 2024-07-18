@@ -16,20 +16,20 @@ export default function Home() {
   return (
     <main>
    <Container>
-      <Hero/>
+    <div id="home">
+    <Hero/>
+    </div>
     
-      <div className="">
+      <div className="" id="help">
       <SectionTitle
-       
        title="How can we help you?"
      >
-    
      </SectionTitle>
      <HowcanHelp/>
     
       </div>
-      <SectionTitle
-       
+     <div id="who">
+     <SectionTitle
        title="Who Are We?"
      >
        Painting is a marketing website for startups
@@ -37,6 +37,7 @@ export default function Home() {
        completely open-source. Anyone contact me. Why should you use this me
      </SectionTitle>
       <Who/>
+     </div>
     
       <HelpCenter/>
       <SectionTitle
@@ -47,9 +48,13 @@ export default function Home() {
      </SectionTitle>
      <Testimonials/>
       <div className="bg-gray-300">
-     <OurWork/>
+    <div id="work">
+    <OurWork/>
+    </div>
      </div>
-     <ContactUs/>
+   <div id='contactus'>
+   <ContactUs/>
+   </div>
     
    </Container>
    

@@ -4,15 +4,19 @@ import ThemeChanger from "./DarkSwitch";
 import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 import { phoneNumber } from "./Hero";
-
+import scrollToElement from 'scroll-to-element';
+import { title } from "process";
 export const Navbar = () => {
   const navigation = [
-    "Home",
-    "About",
-    "Services",
-    "Contact",
+    {title:"Home" , id: "#home"} , {title:"About" , id: "#who"} , {title:"Services" , id:"#work"} , {title: "Contact" , id:"#contactus"}   ];
 
-  ];
+  const handleScroll = (id) => {
+    scrollToElement(id, {
+      offset: 0,
+      ease: 'out-circ',
+      duration: 1000
+    });
+  };
 
   return (
     <div className="w-full">
@@ -33,7 +37,7 @@ export const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Painting</span>
+                    <span onClick={()=>{handleScroll("#home")}}>Painting</span>
                   </span>
                 </Link>
 
@@ -63,8 +67,8 @@ export const Navbar = () => {
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((item, index) => (
-                      <Link key={index} href="/" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-[#2e0249] focus:text-[#2e0249] focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
-                          {item}
+                      <Link key={index} href={item.id} className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-[#2e0249] focus:text-[#2e0249] focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
+                          {item.title}
                       </Link>
                     ))}
                     <Link href={`tel:${phoneNumber}`} className="w-full px-6 py-2 mt-3 text-center text-white bg-[#2e0249] rounded-md lg:ml-5">         
@@ -82,8 +86,8 @@ export const Navbar = () => {
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
-                <Link href="/" className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-[#2e0249] focus:text-[#2e0249] focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
-                    {menu}
+                <Link href={menu.id} className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-[#2e0249] focus:text-[#2e0249] focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
+                    {menu.title}
                 </Link>
               </li>
             ))}

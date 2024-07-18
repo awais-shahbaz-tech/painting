@@ -3,13 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import Container  from "@/components/Container";
-
+import scrollToElement from 'scroll-to-element';
 
 function Footer() {
-    const navigation = [ "Home",
-    "About",
-    "Services",
-    "Contact",];
+  const navigation = [
+    {title:"Home" , id: "#home"} , {title:"About" , id: "#who"} , {title:"Services" , id:"#work"} , {title: "Contact" , id:"#contactus"}   ];
   const legal = ["Monday  : 8:00 AM – 8:00 PM", "Tuesday :8:00 AM – 8:00 PM", "Wednesday : 8:00 AM – 8:00 PM" , "Thursday : 8:00 AM – 8:00 PM" , "Friday : 8:00 AM – 8:00 PM" , "Saturday : 8:00 AM – 8:00 PM" , "Sunday : Closed"];
   return (
     <div>
@@ -69,10 +67,10 @@ function Footer() {
               {navigation.map((item, index) => (
                 <Link
                   key={index}
-                  href="/"
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                  href={item.id}
+                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-[#2e0249] focus:text-[#2e0249] focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
-                  {item}
+                  {item.title}
                 </Link>
               ))}
             </div>
@@ -126,9 +124,9 @@ function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Local Business |{" "}
+          Copyright © {new Date().getFullYear()}. Codace Solutions |{" "}
           <a href="" target="_blank" rel="noopener">
-          Powered by Local Business
+          Powered by Codace Solutions
           </a>{" "}
          
         </div>
