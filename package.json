@@ -19,7 +19,7 @@
   },
   "browserslist": [
     "last 2 Chrome versions"
-  ]
+  ],
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
