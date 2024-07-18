@@ -1,3 +1,5 @@
+"use client"
+import 'regenerator-runtime/runtime'
 import ContactUs from "@/components/ContactUs";
 import Container from "@/components/Container";
 import HelpCenter from "@/components/HelpCenter";

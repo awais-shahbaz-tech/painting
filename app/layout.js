@@ -1,4 +1,4 @@
-import "regenerator-runtime"
+import 'regenerator-runtime/runtime'
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
