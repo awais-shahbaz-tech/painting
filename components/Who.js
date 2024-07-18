@@ -33,7 +33,7 @@ function Who() {
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="/"
+                href="#"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-sm font-medium text-center text-white bg-[#2e0249] rounded-full">

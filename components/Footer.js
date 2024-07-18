@@ -19,7 +19,7 @@ function Footer() {
           <div className="lg:col-span-2">
             <div>
               <Link
-                href="/"
+                href="#"
                 className="flex items-center space-x-2 text-2xl font-medium text-[#2e0249] dark:text-gray-100"
               >
                 <Image
@@ -84,7 +84,7 @@ function Footer() {
               {legal.map((item, index) => (
                 <Link
                   key={index}
-                  href="/"
+                  href="#"
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-[#2e0249] focus:text-[#2e0249] focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
                   {item}
