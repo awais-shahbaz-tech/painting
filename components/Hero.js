@@ -3,9 +3,10 @@ import React from 'react'
 import Image from "next/image";
 import Container from "@/components/Container";
 import heroImg from "../public/img/hero_new.png";
-
+export const phoneNumber = '+603-345-1376';
 
 function Hero() {
+
   return (
     <div>
       <Container className={"flex flex-wrap"}>
@@ -19,9 +20,9 @@ function Hero() {
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <a
-                href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
-                target="_blank"
+              
+              <a href={`tel:${phoneNumber}`}
+               
                 rel="noopener"
                 className="px-8 py-4 text-md font-medium text-center text-white bg-[#2e0249] rounded-full">
                 Request a Callback

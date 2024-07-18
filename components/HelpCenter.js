@@ -1,6 +1,6 @@
 import { callicon } from '@/public/svg/svgs';
 import React from 'react';
-
+import { phoneNumber } from './Hero';
 function HelpCenter() {
   return (
     <div>
@@ -26,7 +26,7 @@ function HelpCenter() {
               <div className="mt-auto">
               
                 <a
-                  href="#"
+                  href={`tel:${phoneNumber}`}
                   className="inline-block rounded-lg bg-white px-8 py-3 text-center text-sm font-semibold text-gray-800 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base"
                 >
                 
